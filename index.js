@@ -15,7 +15,8 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "https://console.firebase.google.com/project/file-sharing-web-b1e84/database/file-sharing-web-b1e84-default-rtdb/data/~2F";
+// const baseURL = "https://console.firebase.google.com/project/file-sharing-web-b1e84/database/file-sharing-web-b1e84-default-rtdb/data/~2F";
+const baseURL = "https://github.com/vmsavaliya/filesharing";
 const uploadURL = `${baseURL}/api/files`;
 const emailURL = `${baseURL}/api/files/send`;
 
